@@ -95,16 +95,16 @@ header a:hover{
 
 .bg{
 	height: calc(100 * var(--vh));
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .bg img{
 	position: fixed;
-	right: 50%;
-	top: calc(50 * var(--vh));
-	margin-right: auto;
-	margin-left: auto;
-	margin-top: calc(-50 * var(--vh));
-	margin-right: -50vw; 
-	height: calc(100 * var(--vh));
+
+	
+
+	height: calc(110 * var(--vh));
 	z-index: -1;
 }
 
